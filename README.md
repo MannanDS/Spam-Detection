@@ -19,7 +19,7 @@ It trains on the popular **SMS Spam Collection Dataset** and allows you to test 
 ```
 spam_classifier/
 │── spam.csv              # Dataset file
-│── spam_classifier.py    # Main Python script
+│── app.py                # Main Python script
 │── README.md             # Project documentation
 ```
 
@@ -44,7 +44,7 @@ pip install pandas scikit-learn
 2. Run the script:  
 
 ```bash
-python spam_classifier.py
+python app.py
 ```
 
 3. Enter a message when prompted to check if it is **Spam** or **Ham (Not Spam)**.
